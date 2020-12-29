@@ -1,0 +1,42 @@
+.bg-insta {
+	background-color: #620087;
+}
+
+
+
+.main-card {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.main-card-desc {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.main-card-desc-title {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.main-card-desc-text {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.main-card-pic-wrapper {
+	width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-card-pic {
+	width: 80%;
+	height: 80%;
+	position: relative;
+}
