@@ -2,7 +2,7 @@
 	background-color: #620087;
 }
 
-
+/* main start */
 
 .main-card {
 	display: flex;
@@ -40,3 +40,119 @@
 	height: 80%;
 	position: relative;
 }
+
+/* main end ------------------------------------------ */
+
+/* price start */
+
+.insta-price {}
+.section-title {}
+.insta-price-card-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.insta-price-card {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.insta-price-card-pic {
+	width: 500px;
+	height: 500px;
+	box-shadow: 3px 3px 15px 1px rgba(0,0,0,.3);
+	border-radius: 15%;
+	overflow: hidden;
+	background: #fff;
+	transition: .5s;
+	margin-bottom: 20px;
+}
+
+.insta-price-card-pic:hover {
+	background: rgb(189,31,152);
+	background: linear-gradient(45deg, rgba(189,31,152,1) 0%, rgba(116,21,202,1) 100%);
+	box-shadow: none;
+}
+
+.insta-price-card-pic:hover img {
+	margin-top: 10%;
+}
+
+.insta-price-card-pic img {
+	width: 50%;
+	margin: 30% auto;
+	transition: .3s;
+}
+
+.insta-price-card-value {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.insta-price-card-button {
+	font-size: 30px;
+	font-weight: 600;
+	background-color: transparent;
+	color: #620087;
+	border: none;
+	cursor: pointer;
+}
+/* price end ------------------------------------------ */
+
+/* insta combo start */
+
+.section-title {}
+.insta-combo-card-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.insta-combo-card {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px;
+	border-radius: 10px;
+	background: rgb(113,16,128);
+	background: linear-gradient(45deg, rgba(113,16,128,1) 0%, rgba(212,10,132,1) 100%);
+	transition: .3s;
+	position: relative;
+}
+
+.insta-combo-card:hover {
+	background: rgb(204,114,239);
+	background: linear-gradient(45deg, rgba(204,114,239,1) 0%, rgba(241,114,213,1) 100%);
+}
+
+.insta-combo-card-text {
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.insta-combo-card-number {
+	font-size: 480px;
+	line-height: 360px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.insta-combo-card-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* insta combo end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
