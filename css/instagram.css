@@ -46,7 +46,6 @@
 /* price start */
 
 .insta-price {}
-.section-title {}
 .insta-price-card-list {
 	display: flex;
 	justify-content: space-between;
@@ -102,15 +101,14 @@
 }
 /* price end ------------------------------------------ */
 
-/* insta combo start */
+/* combo start */
 
-.section-title {}
-.insta-combo-card-list {
+.combo-card-list {
 	display: flex;
 	justify-content: space-between;
 }
 
-.insta-combo-card {
+.combo-card {
 	width: 30%;
 	display: flex;
 	flex-direction: column;
@@ -123,25 +121,27 @@
 	position: relative;
 }
 
-.insta-combo-card:hover {
+.combo-card:hover {
 	background: rgb(204,114,239);
 	background: linear-gradient(45deg, rgba(204,114,239,1) 0%, rgba(241,114,213,1) 100%);
 }
 
-.insta-combo-card-text {
+.combo-card-text {
 	font-size: 40px;
 	font-weight: 600;
 	color: #fff;
+	transition: .3s;
 }
 
-.insta-combo-card-number {
+.combo-card-number {
 	font-size: 480px;
 	line-height: 360px;
 	font-weight: 600;
 	color: #fff;
+	transition: .3s;
 }
 
-.insta-combo-card-link {
+.combo-card-link {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -149,7 +149,7 @@
 	left: 0;
 }
 
-/* insta combo end ------------------------------------------ */
+/* combo end ------------------------------------------ */
 
 /*  start */
 /*  end ------------------------------------------ */

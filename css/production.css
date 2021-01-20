@@ -1,0 +1,37 @@
+/*  combo start */
+
+.combo-card__production {
+    background: rgb(5,28,78);
+    background: linear-gradient(45deg, rgba(5,28,78,1) 0%, rgba(22,64,150,1) 100%);
+}
+
+.combo-card__production:hover {
+    background: #fff;
+}
+
+.combo-card__production:hover .combo-card-text,
+.combo-card__production:hover .combo-card-number {
+    color: #164097;
+}
+/*  combo end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
+
+/*  start */
+/*  end ------------------------------------------ */
