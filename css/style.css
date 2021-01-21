@@ -209,61 +209,56 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .services-card {
-    width: 49%;
+    width: calc(50% - 10px);
+    height: 330px;
     position: relative;
     box-shadow: 3px 3px 22px 0 rgba(0,0,0,.2);
-    margin-bottom: 40px;
+    padding: 60px;
 }
 
 .services-card-title {
-    height: 330px;
+    position: absolute;
     font-size: 40px;
-    font-weight: 500;
-    padding: 50px;
     color: #fff;
+    z-index: 5;
 }
 
 .services-card-pic {
     width: 40%;
     position: absolute;
-    top: 115px;
-    right: 50px;
+    top: 30%;
+    right: 10%;
 }
 
-.services-card-pic-line-1,
-.services-card-pic-line-2 {
+.services-card-pic:before,
+.services-card-pic:after {
     position: absolute;
     content: "";
     width: 6%;
     height: 70%;
+    background-color: rgba(0,0,0,.4);
 }
 
-.services-card-pic-line-1 {
+.services-card-pic:before {
     top: 2%;
     left: -9%;
 }
 
-.services-card-pic-line-2 {
+.services-card-pic:after {
     top: 25%;
     left: -20%;
 }
 
-.services-card-button-wrapper {
-    padding: 60px;
-}
-
-.services-button {
-    display: block;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: #009cf4;
-    background-color: transparent;
-    margin-bottom: 20px;
-    cursor: pointer;
+.services-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 /*  services end ------------------------------------------ */
