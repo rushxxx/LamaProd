@@ -1,7 +1,6 @@
 /* general styles start */
 body {
     font-family: "SF Pro Display", sans-serif;
-    background: #838383;
 }
 
 a {
@@ -11,7 +10,6 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .invisible {
@@ -62,13 +60,8 @@ a {
 
 
 /*  header start */
-.header {
-    padding: 10px;
+header {
     background-color: #000;
-}
-
-.header .container {
-    height: 100%;
 }
 
 .header-wrapper {
@@ -76,6 +69,7 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px 0;
 }
 
 .logo {
@@ -233,6 +227,7 @@ a {
 }
 
 .services-card-pic {
+    width: 40%;
     position: absolute;
     top: 115px;
     right: 50px;
@@ -242,18 +237,18 @@ a {
 .services-card-pic-line-2 {
     position: absolute;
     content: "";
-    width: 25px;
-    height: 250px;
+    width: 6%;
+    height: 70%;
 }
 
 .services-card-pic-line-1 {
-    top: 6px;
-    right: 380px;
+    top: 2%;
+    left: -9%;
 }
 
 .services-card-pic-line-2 {
-    top: 106px;
-    right: 420px;
+    top: 25%;
+    left: -20%;
 }
 
 .services-card-button-wrapper {
@@ -295,7 +290,7 @@ a {
 
 /*  contacts start */
 
-.section-contacts .container {
+.section-contacts {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -381,33 +376,34 @@ ul.footer-list {
 
 /* advantage start */
 
-.advantage {    
-	padding: 40px 0;
+.advantage {
+    padding: 40px 0;
 }
 
 .advantage-card-list {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .advantage-card {
-	margin: 20px;
-	padding: 20px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .advantage-card-pic {
-	width: 40px;
-	height: 40px;
-	margin: 20px auto;
-	fill: #dd004e;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    fill: #dd004e;
 }
 
 .advantage-card-text {
-	text-align: center;
-	font-size: 15px;
-	font-weight: 200;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
 }
 /* advantage end ---------------------------------------------------------------- */
+
 
 /*  start */
 /*  end ------------------------------------------ */
