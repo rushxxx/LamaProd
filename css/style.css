@@ -1,6 +1,7 @@
 /* general styles start */
 body {
     font-family: "SF Pro Display", sans-serif;
+    background: #838383;
 }
 
 a {
@@ -10,6 +11,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .invisible {
@@ -293,7 +295,7 @@ a {
 
 /*  contacts start */
 
-.section-contacts {
+.section-contacts .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -376,6 +378,36 @@ ul.footer-list {
     color: #101010;
 }
 /*  footer end ------------------------------------------ */
+
+/* advantage start */
+
+.advantage {    
+	padding: 40px 0;
+}
+
+.advantage-card-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantage-card {
+	margin: 20px;
+	padding: 20px;
+}
+
+.advantage-card-pic {
+	width: 40px;
+	height: 40px;
+	margin: 20px auto;
+	fill: #dd004e;
+}
+
+.advantage-card-text {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 200;
+}
+/* advantage end ---------------------------------------------------------------- */
 
 /*  start */
 /*  end ------------------------------------------ */
