@@ -89,37 +89,7 @@
 /* design end ---------------------------------------------------------------- */
 
 
-/* advantage start */
 
-.advantage {
-	background-color: #000;
-	color: #fff;
-	padding: 40px 0;
-}
-
-.advantage-card-list {
-	display: flex;
-	justify-content: space-between;
-}
-
-.advantage-card {
-	margin: 20px;
-	padding: 20px;
-}
-
-.advantage-card-pic {
-	width: 40px;
-	height: 40px;
-	margin: 20px auto;
-	fill: #dd004e;
-}
-
-.advantage-card-text {
-	text-align: center;
-	font-size: 15px;
-	font-weight: 200;
-}
-/* advantage end ---------------------------------------------------------------- */
 
 /* design-about start */
 
@@ -239,8 +209,13 @@
 .secondary {}
 /* design-services end ---------------------------------------------------------------- */
 
-/* design start */
-/* design end ---------------------------------------------------------------- */
+/* advantage design start */
+
+.advantage__design {
+	background-color: #000;
+	color: #fff;
+}
+/* advantage design end ---------------------------------------------------------------- */
 
 
 /* design start */
