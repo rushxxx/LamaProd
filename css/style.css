@@ -292,16 +292,18 @@ header {
 
 /*  contacts start */
 
-.section-contacts {
+.section-contacts .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .contacts-link {
+    width: 220px;
     font-size: 20px;
     font-weight: 500;
     color: #999;
+    text-align: center;
 }
 
 .contacts-link:hover {
