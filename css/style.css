@@ -183,6 +183,7 @@ header {
 /*  hero start */
 
 .hero {
+    height: calc(100vh - 140px);
     padding: 90px 0;
     display: flex;
     justify-content: space-between;
@@ -279,6 +280,12 @@ header {
 .callback-form {
     padding: 30px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.callback-form input{
+    width: 300px;
 }
 /*  callback end ------------------------------------------ */
 
@@ -286,16 +293,18 @@ header {
 
 /*  contacts start */
 
-.section-contacts {
+.section-contacts .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .contacts-link {
+    width: 220px;
     font-size: 20px;
     font-weight: 500;
     color: #999;
+    text-align: center;
 }
 
 .contacts-link:hover {
