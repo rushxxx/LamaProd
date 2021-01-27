@@ -1,3 +1,16 @@
+@media screen and (max-width: 1200px){
+    .container {
+        max-width: 1200px;
+        padding: 0 20px;
+    }
+
+    .insta-price-card-pic {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
 @media screen and (max-width: 640px){
     .logo {
         width: 60px;
