@@ -4,12 +4,35 @@
         padding: 0 20px;
     }
 
+
+/* instagram start */
     .insta-price-card-pic {
         width: 300px;
         height: 300px;
     }
+/* instagram end */
+
+    .combo-card {
+        padding: 10px;
+    }
+
+    .combo-card-text {
+        font-size: 6vw;
+    }
+
+    .combo-card-number {
+        font-size: 27vw;
+        line-height: 110%;
+    }
 }
 
+@media screen and (max-width: 920px) {
+    /* instagram start */
+    .insta-price-card {
+        width: 45%;
+    }
+    /* instagram end */
+}
 
 @media screen and (max-width: 640px){
     .logo {
@@ -63,4 +86,9 @@
         width: 100%;
     }
 
+/* instagram start */
+    .insta-price-card {
+        width: 100%;
+    }
+/* instagram end */
 }

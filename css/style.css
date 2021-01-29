@@ -295,16 +295,18 @@ header {
 
 .section-contacts .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
 .contacts-link {
-    width: 220px;
+    display: block;
     font-size: 20px;
     font-weight: 500;
     color: #999;
     text-align: center;
+    padding: 0 20px;
 }
 
 .contacts-link:hover {
