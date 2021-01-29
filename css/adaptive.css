@@ -32,6 +32,11 @@
         width: 45%;
     }
     /* instagram end */
+
+    .footer-item {
+        width: 50%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 640px){
@@ -82,6 +87,14 @@
         margin-left: 20px;
     }
 
+    .hero {
+        height: calc(100vh - 67px);
+    }
+
+    .hero-img {
+        display: none;
+    }
+
     .services-card {
         width: 100%;
     }
@@ -91,4 +104,36 @@
         width: 100%;
     }
 /* instagram end */
+}
+
+
+@media screen and (max-width: 480px){
+    .container {
+        padding: 0 5px;
+    }
+
+    .services-card {
+        height: 280px;
+        padding: 20px;
+    }
+
+    .services-card-title {
+        font-size: 11vw;
+    }
+
+    .callback-form-title {
+        font-size: 24px;
+    }
+
+    .callback-form input {
+        margin-bottom: 20px;
+    }
+
+    .callback-form button {
+        width: 220px;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
 }
