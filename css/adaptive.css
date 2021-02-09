@@ -5,15 +5,15 @@
     }
 
 
-/* instagram start */
+/* instagram page start */
     .insta-price-card-pic {
         width: 300px;
         height: 300px;
     }
-/* instagram end */
+/* instagram page end */
 
     .combo-card {
-        padding: 10px;
+        padding: 10px 10px 20px 10px;
     }
 
     .combo-card-text {
@@ -25,6 +25,13 @@
         line-height: 110%;
     }
 }
+
+/* design page start */
+
+.design-hero-wrapper h1 {
+    font-size: 4vw;
+}
+/* design page end */
 
 @media screen and (max-width: 920px) {
     /* instagram start */
@@ -99,11 +106,20 @@
         width: 100%;
     }
 
-/* instagram start */
+    /* instagram start */
     .insta-price-card {
         width: 100%;
     }
-/* instagram end */
+    /* instagram end */
+
+
+    /* design page start */
+
+    .advantage-card {
+        margin: 0;
+        padding: 10px;
+    }
+    /* design page end */
 }
 
 
@@ -136,4 +152,19 @@
     .footer-item {
         width: 100%;
     }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    /* design page start */
+
+    .advantage-card-list {
+        flex-wrap: wrap;
+    }
+
+    .design-services-card {
+        width: 100%;
+    }
+    /* design page end */
 }
