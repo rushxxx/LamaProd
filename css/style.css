@@ -7,6 +7,10 @@ a {
     text-decoration: none;   
 }
 
+section {
+    padding: 40px 0 20px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -328,6 +332,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding: 40px 0;
 }
 
 .contacts-link {

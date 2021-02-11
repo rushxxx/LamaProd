@@ -37,8 +37,29 @@
 }
 .main-card-pic {
 	width: 80%;
-	height: 80%;
+	/*height: 80%;*/
 	position: relative;
+	padding: 10%;
+}
+
+.main-card-pic:before,
+.main-card-pic:after {
+	position: absolute;
+	content: "";
+	width: 50%;
+	height: 50%;
+	background-color: #00133b;
+	z-index: -1;
+}
+
+.main-card-pic:before {
+	top: 7%;
+	right: 7%;
+}
+
+.main-card-pic:after {
+	bottom: 7%;
+	left: 7%;
 }
 
 /* main end ------------------------------------------ */
