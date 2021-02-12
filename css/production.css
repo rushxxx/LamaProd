@@ -153,66 +153,7 @@
 
 /*  combo end ------------------------------------------ */
 
-/*  review start */
 
-.review-slider {
-    padding: 10px 10px 40px 10px;
-}
-
-.review-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-top: 10px solid #00133b;
-    border-bottom: 10px solid #00133b;
-    padding: 50px;
-    box-shadow: 1px 1px 7px 1px rgba(0,0,0,.3);
-}
-
-.review-card__rating {
-    /*width: 265px;*/
-    margin: 0 auto;
-}
-
-.review-card__pic {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 30px;
-}
-
-.review-card__pic img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.review-card__rating {
-    margin-bottom: 15px;
-}
-
-.review-card__user-name{
-    margin-bottom: 40px;
-}
-
-.review-card__rating span {
-    padding: 0;
-    font-size: 32px;
-    margin: 0 3px;
-    line-height: 1;
-    color: lightgrey;
-    text-shadow: 1px 1px #bbb;
-}
-
-.review-card__rating > span:before {
-    content: '★';
-}
-
-.review-card__rating > span.active {
-    color: #164097;
-    /*text-shadow: 1px 1px #c60;*/
-}
-/*  review end ------------------------------------------ */
 
 /*  production-callback start */
 
