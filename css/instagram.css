@@ -23,6 +23,11 @@
 	margin-bottom: 20px;
 }
 
+.main-card-desc-title {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
 .main-card-desc-text {
 	font-size: 20px;
 	font-weight: 500;
@@ -35,15 +40,18 @@
     justify-content: center;
     align-items: center;
 }
+
 .main-card-pic {
 	width: 80%;
-	/*height: 80%;*/
+}
+
+.main-card-pic--lines {
 	position: relative;
 	padding: 10%;
 }
 
-.main-card-pic:before,
-.main-card-pic:after {
+.main-card-pic--lines:before,
+.main-card-pic--lines:after {
 	position: absolute;
 	content: "";
 	width: 50%;
@@ -52,12 +60,12 @@
 	z-index: -1;
 }
 
-.main-card-pic:before {
+.main-card-pic--lines:before {
 	top: 7%;
 	right: 7%;
 }
 
-.main-card-pic:after {
+.main-card-pic--lines:after {
 	bottom: 7%;
 	left: 7%;
 }
@@ -124,10 +132,8 @@
 
 /* combo start */
 
-.combo-card__list {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.combo-slider {
+	padding-bottom: 40px;
 }
 
 .combo-card {

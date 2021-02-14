@@ -1,225 +1,44 @@
-.header {
-	background-color: transparent;
-}
-
-.header-wrapper {
-	justify-content: space-between;
-}
-
-.two-red-line {
-	position: relative;
-}
-
-.two-red-line:before,
-.two-red-line:after {
-	position: absolute;
-	content: "";
-	width: 40px;
-	height: 1px;
-	background-color: #dd004e;
-}
-
-.two-red-line.bottom:before {
-	bottom: -10px;
-}
-
-.two-red-line.bottom:after {
-	bottom: -15px;
-}
-
-.two-red-line.center:before  {
-	left: calc(50% - 10px);
-}
-
-.two-red-line.center:after  {
-	left: calc(50% + 10px);
-}
-
-.two-red-line.lef:before t {
-	left: 0;
-}
-
-.two-red-line.left:after  {
-	left: 10px;
-}
-
 /* design start */
+
+.c__design-main {
+	color: #cd0039;
+}
+
+.bgc__design-main {
+	background-color: #cd0039;
+}
 /* design end ---------------------------------------------------------------- */
-.design-hero {
-	width: 100vw;
-	height: 100vh;
-	margin-top: -140px;
+
+
+
+/* design portfolio start */
+
+.design-portfolio {
+
 }
 
-.design-hero .container {
-	height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 35% 50px;
-}
-
-.design-hero-wrapper {
-	width: 50%;
-	height: 100%;
+ul.design-portfolio__list {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: flex-start;
-	margin-left: auto;
-	background-color: #000;
-	padding: 64px;
-}
-
-.design-hero-wrapper h1 {
-	font-size: 80px;
-	font-weight: bold;
-	color: #dd004e;
-	text-transform: uppercase;
-}
-
-.design-hero-wrapper p {
-	font-size: 20px;
-	font-weight: normal;
-	color: #fff;
-	margin-bottom: 20px;
-}
-
-.btn-design {}
-
-/* design end ---------------------------------------------------------------- */
-
-
-
-
-/* design-about start */
-
-.design-about {
-	position: relative;
-}
-
-.design-about:before,
-.design-about:after {
-	position: absolute;
-	content: "";
-	top: 0;
-	bottom: 0;
-	z-index: -1;
-}
-
-.design-about:before {
-	right: 50%;
-	left: 0;
-	background-color: #000;
-}
-
-.design-about:after {
-	right: 0;
-	left: 50%;
-	background-color: #fff;
-}
-
-.design-about .container {
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 65% 20px;
-}
-
-.design-about-wrapper {
-	width: 50%;
+	gap: 30px;
 	padding: 40px 0;
 }
 
-.design-about-wrapper h2 {
-	font-size: 40px;
-	color: #fff;
-	margin-bottom: 40px;
+.design-portfolio__item {
+	width: 100px;
+	height: 100px;
+	border-radius: 15%;
+	box-shadow: 3px 3px 14px -3px rgba(0,0,0,.3);
+	padding: 10px;
 }
 
-.design-about-wrapper p {
-	font-size: 20px;
-	color: #fff;
-	margin-bottom: 20px;
-}
-/* design-about end ---------------------------------------------------------------- */
-
-/* design-services start */
-
-.design-services {
-	background-color: #000;
-}
-
-.container {}
-.design-services-card-wrap {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.design-services-card {
-	width: 48%;
-	height: 500px;
-	padding: 20px;
-	margin: 10px 0;
-	background-color: #fff;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	transition: .3s;
-	position: relative;
-	overflow: hidden;
-}
-
-.design-services-card:hover {
-	background-color: #000;
-}
-
-.design-services-card:hover .design-services-card-title,
-.design-services-card:hover .design-services-card-button {
-	color: #fff;
-}
-
-.design-services-card:hover .design-services-card-pic svg {
-	fill: #dd004e;
-}
-
-.design-services-card-title {
-	width: 50%;
-	font-size: 40px;
-	font-weight: bold;
-	color: #dd004e;
-}
-
-.design-services-card-pic {
-	width: 50%;
+.design-portfolio__item img {
+	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
+	object-fit: contain;
 }
-
-.design-services-card-pic svg {
-	fill: #838383;
-}
-
-.design-services-card-button {
-	background-color: transparent;
-	color: #dd004e;
-}
-.secondary {}
-/* design-services end ---------------------------------------------------------------- */
-
-/* advantage design start */
-
-.advantage__design {
-	background-color: #000;
-	color: #fff;
-}
-/* advantage design end ---------------------------------------------------------------- */
-
-
-/* design start */
-/* design end ---------------------------------------------------------------- */
+/* design portfolio end ---------------------------------------------------------------- */
 
 /* design start */
 /* design end ---------------------------------------------------------------- */

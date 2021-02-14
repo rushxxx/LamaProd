@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+
+    <link rel="stylesheet" href="module/swiper/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="css/SFPro.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -193,26 +196,31 @@
 
             <section class="combo">
                 <h2 class="section-title">Комбо прайс</h2>
-                <ul class="combo-card__list">
-                    <li class="combo-card combo-card--instagram">
-                        <span class="combo-card-text">Комбо</span>
-                        <span class="combo-card-number">1</span>
-                        <span class="combo-card-text">Прайс</span>
-                        <a href="#" class="combo-card-link"></a>
-                    </li>
-                    <li class="combo-card combo-card--instagram">
-                        <span class="combo-card-text">Комбо</span>
-                        <span class="combo-card-number">2</span>
-                        <span class="combo-card-text">Прайс</span>
-                        <a href="#" class="combo-card-link"></a>
-                    </li>
-                    <li class="combo-card combo-card--instagram">
-                        <span class="combo-card-text">Комбо</span>
-                        <span class="combo-card-number">3</span>
-                        <span class="combo-card-text">Прайс</span>
-                        <a href="#" class="combo-card-link"></a>
-                    </li>
-                </ul>
+                <div class="combo-slider swiper-container">
+                    <ul class="combo-card__list swiper-wrapper">
+                        <li class="swiper-slide combo-card combo-card--instagram">
+                            <span class="combo-card-text">Комбо</span>
+                            <span class="combo-card-number">1</span>
+                            <span class="combo-card-text">Прайс</span>
+                            <a href="#" class="combo-card-link"></a>
+                        </li>
+                        <li class="swiper-slide combo-card combo-card--instagram">
+                            <span class="combo-card-text">Комбо</span>
+                            <span class="combo-card-number">2</span>
+                            <span class="combo-card-text">Прайс</span>
+                            <a href="#" class="combo-card-link"></a>
+                        </li>
+                        <li class="swiper-slide combo-card combo-card--instagram">
+                            <span class="combo-card-text">Комбо</span>
+                            <span class="combo-card-number">3</span>
+                            <span class="combo-card-text">Прайс</span>
+                            <a href="#" class="combo-card-link"></a>
+                        </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </section>
 
 
@@ -348,6 +356,8 @@
             <div class="copyright">2020 © Lama Production. Все права защищены</div>
         </div>
     </footer>
+
+    <script src="module/swiper/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
 </body>
 
