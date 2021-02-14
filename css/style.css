@@ -462,6 +462,9 @@ ul.footer-list {
     color: #fff;
     font-size: 30px;
     padding: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 /*  cases end ------------------------------------------ */
 

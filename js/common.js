@@ -26,6 +26,16 @@ const reviewSlider = new Swiper('.review-slider', {
 		prevEl: '.swiper-button-prev',
 	},
 
+	breakpoints: {
+		280: {
+			slidesPerView: 1,
+		},
+		640: {
+			slidesPerView: 2,
+			spaceBetween: 40,
+		}
+	}
+
 });
 
 const casesSlider = new Swiper('.cases-slider', {
@@ -43,7 +53,6 @@ const casesSlider = new Swiper('.cases-slider', {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
 	},
-
 });
 
 const comboSlider = new Swiper('.combo-slider', {
